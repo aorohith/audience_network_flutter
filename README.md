@@ -24,14 +24,14 @@ Forked from https://pub.dev/packages/facebook_audience_network
 
 For testing purposes you need to obtain the hashed ID of your testing device. To obtain the hashed ID: 
 
-1. Call `AudienceNetwork.init()` during app initialization.
+1. Call `EasyAudienceNetwork.init()` during app initialization.
 2. Place the `BannerAd` widget in your app.
 3. Run the app.
 
 The hased id will be in printed to the logcat. Paste that onto the `testingId` parameter.
 
 ```dart
-AudienceNetwork.init(
+EasyAudienceNetwork.init(
   testingId: "37b1da9d-b48c-4103-a393-2e095e734bd6", //optional
   testMode: true, // optional
   iOSAdvertiserTrackingEnabled: true, //default false
